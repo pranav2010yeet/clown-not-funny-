@@ -1,0 +1,50 @@
+body {
+    background-image:url("https://coolbackgrounds.io/images/backgrounds/white/white-unsplash-9d0375d2.jpg") ;
+    background-size:cover;
+}
+
+.heading{
+
+    background-color:black;
+    color:yellow;
+    padding: 5px;
+    font-size:40px;
+    font-weight:bold;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    font-variant: small-caps;
+    width: 40%;
+}
+
+button{
+
+    background-color: yellow;
+    color:black;
+    font-size:25;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    background-color:black;
+    color:yellow;
+}
+
+canvas{
+    border:10px double black;
+    animation-name:pranav;
+    animation-duration:5s ;
+    animation-iteration-count:infinite ;
+}
+
+@keyframes pranav{
+
+    from{
+        box-shadow:10px 10px 50px yellow;
+    }
+
+    to{
+        box-shadow:10px 10px 50px aqua
+    }
+}
